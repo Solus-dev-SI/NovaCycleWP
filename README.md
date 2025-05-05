@@ -1,6 +1,4 @@
-# Nova Cycle
-
-## Description
+# NovaCycleWP
 
 A website for Nova Cycle, a company focused on recycling solutions.
 
@@ -29,3 +27,6 @@ A website for Nova Cycle, a company focused on recycling solutions.
 *   Add more products and services details.
 *   Fill in team member details on the About page.
 *   Explore cloud integration options.
+=======
+# NovaCycleWP
+>>>>>>> 6e2737996190c73ee07e6d1f597c97388a69099a
