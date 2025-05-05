@@ -2,3 +2,12 @@ node_modules/
 .DS_Store
 *.log
 app.db
+
+# Python virtual environment
+venv/
+**/venv/
+
+# Python cache files
+*.pyc
+__pycache__/
+**/__pycache__/
