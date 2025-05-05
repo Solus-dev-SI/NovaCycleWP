@@ -1,0 +1,7 @@
+# Commands Used
+
+- `write_to_file`: Creates a new file or overwrites an existing file with the given content.
+- `start index.html`: Opens the index.html file in the default web browser (Windows).
+- `replace_in_file`: Replaces sections of content in an existing file using SEARCH/REPLACE blocks.
+- `start NovaCycle/index.html`: Opens the index.html file in the default web browser (Windows).
+- `<link rel="stylesheet" href="style.css">`: Links the style.css file to the index.html file.

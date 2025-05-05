@@ -1,0 +1,197 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Futuristic Header Styles */
+h1, h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cleaner sans-serif font */
+  color: #00aaff; /* Electric blue color */
+  text-transform: uppercase; /* Uppercase letters */
+  letter-spacing: 1.5px; /* Slightly increased letter spacing */
+  text-shadow: 0 0 3px rgba(0, 170, 255, 0.5); /* Subtle glow effect */
+}
+
+main #mission {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border: 1px solid #80dfff;
+    border-radius: 5px;
+}
+
+main #values {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border: 1px solid #80dfff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main #values ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+}
+
+header {
+    background-color: #008080;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+main section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border: 1px solid #80dfff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main section h2 {
+    text-align: center;
+}
+
+main section ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+.about h2 {
+    color: green;
+}
+
+/* h1 { color: navy; } */ /* Replaced by the general h1, h2 rule */
+
+.index #hero {
+    background-color: #e6ffe6; /* Light green */
+}
+
+/* .about h2 { color: teal; } */ /* Replaced by the general h1, h2 rule */
+
+#hero img {
+    max-width: 30%; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add some space between the image and the text */
+}
+
+.products #products {
+    border: 2px solid #008080; /* Teal border */
+    padding: 10px;
+}
+
+.product-container {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.services #services {
+    background-color: #ffffe0; /* Light yellow */
+}
+
+.contact #contact {
+    font-size: 1.2em;
+}
+
+.product-option {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 300px; /* Fixed width */
+    height: 250px; /* Increased height to accommodate image */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Distribute space between content */
+}
+
+.product-option img {
+    max-width: 100%; /* Make image responsive */
+    max-height: 150px; /* Limit image height */
+    margin-bottom: 10px; /* Add space below image */
+}
+
+.product-option h3 {
+    margin-top: 0; /* Remove default margin from heading */
+}
+
+.product-option p {
+    margin-bottom: 0; /* Remove default margin from paragraph */
+}
+
+.button {
+    background-color: #008080; /* Teal */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #006666; /* Darker Teal */
+}
+
+/* Contact Form Styles */
+#contact form div {
+    margin-bottom: 15px; /* Add space between form fields */
+    text-align: left; /* Align labels and inputs to the left */
+    max-width: 500px; /* Limit form width */
+    margin-left: auto; /* Center the form container */
+    margin-right: auto;
+}
+
+#contact label {
+    display: block; /* Make labels take their own line */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%; /* Make inputs fill their container */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+#contact textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+#contact button.button {
+    /* Inherits general button styles, can add specific overrides here if needed */
+    display: block; /* Make button take full width */
+    width: 100%;
+}

@@ -1,0 +1,66 @@
+The style.css file is separated into different sections based on the HTML elements or sections they are styling. Each section starts with a selector, which tells the browser which HTML elements the styles should be applied to.
+
+To style different pages differently with a single CSS file, you can use more specific CSS selectors. Here's how:
+
+1. Add a unique class to the body tag of each HTML page. For example:
+    * index.html: <body class="index">
+    * about.html: <body class="about">
+    * products.html: <body class="products">
+2. In the CSS file, use these classes to create page-specific styles. For example:
+    * .index h1 { color: blue; } /* Styles the h1 on the index page */
+    * .about h1 { color: green; } /* Styles the h1 on the about page */
+
+Here's a breakdown of the style.css file:
+
+* body: This section styles the entire <body> of the HTML document.
+    * font-family: sans-serif; sets the font for the entire page to a sans-serif font.
+    * text-align: center; centers the text within the body.
+* main #mission: This section styles the <section> element with the ID "mission" that is inside the <main> element.
+    * margin-top: 20px; adds a 20-pixel margin above the section.
+    * padding: 20px; adds 20 pixels of padding around the content inside the section.
+    * background-color: #e6f7ff; sets the background color to a light blue.
+    * border: 1px solid #80dfff; adds a 1-pixel solid border with a light blue color.
+    * border-radius: 5px; rounds the corners of the section by 5 pixels.
+* main #values: This section styles the <section> element with the ID "values" that is inside the <main> element.
+    * It has the same properties as main #mission, but it also includes text-align: center; to center the text within the section.
+* main #values ul: This section styles the <ul> element inside the <section> element with the ID "values" that is inside the <main> element.
+    * list-style-type: none; removes the bullet points from the unordered list.
+    * margin-left: 20px; adds a 20-pixel margin to the left of the list.
+    * padding: 0; removes the default padding from the list.
+* header: This section styles the <header> element.
+    * background-color: #008080; sets the background color to teal.
+    * color: white; sets the text color to white.
+    * padding: 10px; adds 10 pixels of padding around the content inside the header.
+* nav ul: This section styles the <ul> element inside the <nav> element.
+    * list-style-type: none; removes the bullet points from the unordered list.
+    * margin: 0; removes the default margin from the list.
+    * padding: 0; removes the default padding from the list.
+    * overflow: hidden; clears the float.
+    * background-color: #333; sets the background color to a dark gray.
+* nav li: This section styles the <li> elements inside the <nav> element.
+    * float: left; makes the list items display side by side.
+* nav li a: This section styles the <a> elements inside the <li> elements inside the <nav> element.
+    * display: block; makes the links fill the entire list item.
+    * color: white; sets the text color to white.
+    * text-align: center; centers the text within the link.
+    * padding: 14px 16px; adds padding around the link text.
+    * text-decoration: none; removes the underline from the links.
+* nav li a:hover: This section styles the <a> elements when the mouse hovers over them.
+    * background-color: #111; changes the background color to a darker gray on hover.
+* main section: This section styles the <section> elements inside the <main> element.
+    * margin-top: 20px; adds a 20-pixel margin above the section.
+    * padding: 20px; adds 20 pixels of padding around the content inside the section.
+    * background-color: #e6f7ff; sets the background color to a light blue.
+    * border: 1px solid #80dfff; adds a 1-pixel solid border with a light blue color.
+    * border-radius: 5px; rounds the corners of the section by 5 pixels.
+    * text-align: left; aligns the text to the left.
+* main section ul: This section styles the <ul> elements inside the <section> elements inside the <main> element.
+    * list-style-type: none; removes the bullet points from the unordered list.
+    * margin-left: 20px; adds a 20-pixel margin to the left of the list.
+    * padding: 0; removes the default padding from the list.
+* .about h2: This section styles the h2 elements inside the body with class "about".
+    * color: green; sets the text color to green.
+* h1: This section styles the <h1> elements.
+    * color: navy; sets the text color to navy.
+
+The key to understanding the CSS is to pay attention to the selectors. The more specific the selector, the more specific the style will be. For example, main section ul is more specific than ul, so it will only style ul elements that are inside section elements that are inside the main element.
